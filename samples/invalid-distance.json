@@ -1,0 +1,11 @@
+[
+  {
+    "orderId": "A",
+    "packageCode": "PARCEL",
+    "serviceCode": "STANDARD",
+    "discountCode": "NONE",
+    "quantity": 1,
+    "distanceKm": -5,
+    "status": "DRAFT"
+  }
+]

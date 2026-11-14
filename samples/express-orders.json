@@ -1,0 +1,38 @@
+[
+  {
+    "orderId": "A",
+    "packageCode": "PARCEL",
+    "serviceCode": "EXPRESS",
+    "discountCode": "NONE",
+    "quantity": 1,
+    "distanceKm": 0,
+    "status": "DRAFT"
+  },
+  {
+    "orderId": "B",
+    "packageCode": "PARCEL",
+    "serviceCode": "EXPRESS",
+    "discountCode": "NONE",
+    "quantity": 1,
+    "distanceKm": 2,
+    "status": "DRAFT"
+  },
+  {
+    "orderId": "C",
+    "packageCode": "PARCEL",
+    "serviceCode": "EXPRESS",
+    "discountCode": "NONE",
+    "quantity": 1,
+    "distanceKm": 10,
+    "status": "DRAFT"
+  },
+  {
+    "orderId": "D",
+    "packageCode": "PARCEL",
+    "serviceCode": "EXPRESS",
+    "discountCode": "NONE",
+    "quantity": 1,
+    "distanceKm": 30,
+    "status": "DRAFT"
+  }
+]

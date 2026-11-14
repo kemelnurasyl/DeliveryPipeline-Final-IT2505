@@ -1,0 +1,8 @@
+[
+  {"orderId":"A","packageCode":"PARCEL","serviceCode":"STANDARD","discountCode":"NONE","quantity":1,"distanceKm":0,"status":"DRAFT"},
+  {"orderId":"C","packageCode":"PARCEL","serviceCode":"STANDARD","discountCode":"NONE","quantity":1,"distanceKm":10,"status":"DRAFT"},
+  {"orderId":"B","packageCode":"PARCEL","serviceCode":"STANDARD","discountCode":"NONE","quantity":1,"distanceKm":10,"status":"DRAFT"},
+  {"orderId":"D","packageCode":"PARCEL","serviceCode":"EXPRESS","discountCode":"NONE","quantity":1,"distanceKm":0,"status":"DRAFT"},
+  {"orderId":"F","packageCode":"PARCEL","serviceCode":"EXPRESS","discountCode":"NONE","quantity":1,"distanceKm":10,"status":"DRAFT"},
+  {"orderId":"E","packageCode":"PARCEL","serviceCode":"EXPRESS","discountCode":"NONE","quantity":1,"distanceKm":10,"status":"DRAFT"}
+]

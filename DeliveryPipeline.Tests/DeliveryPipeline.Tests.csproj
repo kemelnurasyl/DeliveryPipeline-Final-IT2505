@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeliveryPipeline.Core\DeliveryPipeline.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(OS)' != 'Windows_NT'">
+    <None Include="../native/runtime/linux-x64/libdeliveryfees.so" Link="libdeliveryfees.so" CopyToOutputDirectory="PreserveNewest" Condition="Exists('../native/runtime/linux-x64/libdeliveryfees.so')" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(OS)' == 'Windows_NT'">
+    <None Include="../native/runtime/win-x64/deliveryfees.dll" Link="deliveryfees.dll" CopyToOutputDirectory="PreserveNewest" Condition="Exists('../native/runtime/win-x64/deliveryfees.dll')" />
+  </ItemGroup>
+</Project>
